@@ -8,6 +8,40 @@ BASE_PATH = pwd.getpwuid(os.getuid()).pw_dir
 DEFAULT_LOGGER_NAME = 'BMI_Project'
 APP_LOG_FILE = 'logs/'
 
+input_file_path = 'input_data.json'
+
+table_config = [
+    {
+        "Category": "Underweight",
+        "HealthRisk": "Malnutrition Risk",
+        "bmi": 18.4
+    },
+    {
+        "Category": "Normal Weight",
+        "HealthRisk": "Low Risk",
+        "bmi": 24.9
+    },
+    {
+        "Category": "Overweight",
+        "HealthRisk": "Enhanced risk",
+        "bmi": 29.9
+    },
+    {
+        "Category": "Moderately obese",
+        "HealthRisk": "Medium risk",
+        "bmi": 34.9
+    },
+    {
+        "Category": "Severely obese",
+        "HealthRisk": "High risk",
+        "bmi": 39.9
+    },
+    {
+        "Category": "Very Severely obese",
+        "HealthRisk": "Very high risk",
+        "bmi": 40
+    }
+]
 
 FILE_LOG_CONFIG = {
     'filename': 'logging.log',
