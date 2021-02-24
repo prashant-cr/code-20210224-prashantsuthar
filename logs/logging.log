@@ -1,0 +1,39 @@
+2a1df341-0d66-4dbc-a5b7-50318b6a7d1f - 2021-02-24 23:44:02,894 - log_utils.py - log_utils - config_logger - 64 - [INFO] - logger configured.!!!
+0d047473-2bc0-4db7-9ec5-09e57952ca97 - 2021-02-24 23:44:09,514 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+0d047473-2bc0-4db7-9ec5-09e57952ca97 - 2021-02-24 23:44:09,515 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+0a6a4374-3fac-4d00-a64b-dd4b29f27a87 - 2021-02-24 23:44:11,952 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+0a6a4374-3fac-4d00-a64b-dd4b29f27a87 - 2021-02-24 23:44:11,952 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+57773a81-8073-4084-af47-0429630c2664 - 2021-02-24 23:44:12,259 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+57773a81-8073-4084-af47-0429630c2664 - 2021-02-24 23:44:12,259 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+1a7182ec-d663-4546-aa3f-95a137f866bd - 2021-02-24 23:44:12,415 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+1a7182ec-d663-4546-aa3f-95a137f866bd - 2021-02-24 23:44:12,415 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+477760f0-4d8a-4713-9568-b475a4a8bf6d - 2021-02-24 23:44:12,561 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+477760f0-4d8a-4713-9568-b475a4a8bf6d - 2021-02-24 23:44:12,561 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+4f2a4346-77b9-4b4d-bc09-926ff72d1a6f - 2021-02-24 23:44:12,676 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+4f2a4346-77b9-4b4d-bc09-926ff72d1a6f - 2021-02-24 23:44:12,676 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+c32ecb51-fc8c-4874-ba24-43dc2cba212e - 2021-02-24 23:44:12,827 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+c32ecb51-fc8c-4874-ba24-43dc2cba212e - 2021-02-24 23:44:12,827 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+9557bf8b-e025-4ff1-ae36-428f59f24789 - 2021-02-24 23:44:17,858 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+9557bf8b-e025-4ff1-ae36-428f59f24789 - 2021-02-24 23:44:17,858 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+623e33c9-f6f1-4286-b1b7-4bd9b1d0c2f0 - 2021-02-24 23:44:18,370 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+623e33c9-f6f1-4286-b1b7-4bd9b1d0c2f0 - 2021-02-24 23:44:18,370 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+f0ea06fd-b39b-4c32-be5e-fb5fef96bb2b - 2021-02-24 23:44:18,523 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+f0ea06fd-b39b-4c32-be5e-fb5fef96bb2b - 2021-02-24 23:44:18,524 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+9b17d7a4-44d7-41c4-af94-b5d48b75a401 - 2021-02-24 23:44:18,657 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+9b17d7a4-44d7-41c4-af94-b5d48b75a401 - 2021-02-24 23:44:18,658 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+039c2080-64e8-4ed4-8ef0-53e97018231c - 2021-02-24 23:44:18,790 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+039c2080-64e8-4ed4-8ef0-53e97018231c - 2021-02-24 23:44:18,790 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+353904c4-65f9-4351-9a64-5cd56677bf15 - 2021-02-24 23:44:23,437 - log_utils.py - log_utils - config_logger - 64 - [INFO] - logger configured.!!!
+3d95485f-b6b0-4893-949f-33bcbf598a16 - 2021-02-24 23:44:23,659 - log_utils.py - log_utils - config_logger - 64 - [INFO] - logger configured.!!!
+c680b6fa-da00-4672-afcd-e911503f6abd - 2021-02-24 23:44:35,656 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+c680b6fa-da00-4672-afcd-e911503f6abd - 2021-02-24 23:44:35,656 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+4c2209dd-45fa-400e-a549-f885342760b0 - 2021-02-24 23:46:15,644 - log_utils.py - log_utils - config_logger - 64 - [INFO] - logger configured.!!!
+285e1689-3476-4229-876e-6704e5052a48 - 2021-02-24 23:47:15,909 - log_utils.py - log_utils - config_logger - 64 - [INFO] - logger configured.!!!
+885e7359-58f8-4587-8a56-b167034f6b76 - 2021-02-24 23:47:16,362 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+885e7359-58f8-4587-8a56-b167034f6b76 - 2021-02-24 23:47:16,362 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+84df0cad-0f9e-4945-94b1-d4b39b130ed0 - 2021-02-24 23:47:17,886 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+84df0cad-0f9e-4945-94b1-d4b39b130ed0 - 2021-02-24 23:47:17,886 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+979d8eb5-2808-400e-8673-da097e757c25 - 2021-02-24 23:47:18,165 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+979d8eb5-2808-400e-8673-da097e757c25 - 2021-02-24 23:47:18,166 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
+e73abb52-05ec-46a3-8e52-5539f1b9729e - 2021-02-24 23:47:18,315 - healthcheck.py - healthcheck - __init__ - 10 - [INFO] - In the constructor of HealthCheck
+e73abb52-05ec-46a3-8e52-5539f1b9729e - 2021-02-24 23:47:18,315 - healthcheck.py - healthcheck - get - 13 - [INFO] - Health Check get api called
