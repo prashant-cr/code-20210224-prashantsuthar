@@ -30,12 +30,14 @@ class BMI(Resource):
 
     @staticmethod
     def get():
+        """This is get api method"""
         app.logger.info('In get method of BMI')
         response = get_bmi_info()
         return response
 
     @use_kwargs(BMIPostSchema)
     def post(self, **kwargs):
+        """This is post api method"""
         app.logger.info("IN Post method of Bank info with parameters {}".format(kwargs))
         response = post_bmi_info(**kwargs)
         return response

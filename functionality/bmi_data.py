@@ -67,6 +67,7 @@ def get_category(bmi):
     return table_config[-1]
 
 
+@function_logger
 def post_bmi_info(**kwargs):
     """
     This is post method used to calculate the bmi and category based on post input payload.

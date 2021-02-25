@@ -8,3 +8,5 @@ __pycache__/
 
 #.idea folder
 .idea/
+.DS_Store
+logs/
