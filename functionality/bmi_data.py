@@ -25,7 +25,6 @@ def get_result_according_data(data_list):
     :param data_list:
     :return:
     """
-    print(data_list)
     overweight_count = 0
     for i, sample in enumerate(data_list):  # loop over the sample json data given
         height_cm = sample.get('HeightCm')
@@ -41,7 +40,6 @@ def get_result_according_data(data_list):
     return data_list, overweight_count
 
 
-@function_logger
 def get_bmi(height, weight):
     """
     This method is used to calculate the bmi based on height(cm) and weight(kg)
@@ -49,8 +47,11 @@ def get_bmi(height, weight):
     :param weight:
     :return:
     """
-    height = height / 100  # Converting to meter
-    bmi = round(float(weight / (height ** 2)), 2)  # Find BMI using formula and round of 2 decimal points
+    try:
+        height = height / 100  # Converting to meter
+        bmi = round(float(weight / (height ** 2)), 2)  # Find BMI using formula and round of 2 decimal points
+    except ZeroDivisionError:  # Zero Division Exception handled
+        bmi = 0
     return bmi
 
 
@@ -67,6 +68,11 @@ def get_category(bmi):
 
 
 def post_bmi_info(**kwargs):
+    """
+    This is post method used to calculate the bmi and category based on post input payload.
+    :param kwargs:
+    :return:
+    """
     data = kwargs.get('data')
     result_data_list, overweight_count = get_result_according_data(data)
     return dict(Message="Success", data=result_data_list, overweight_count=overweight_count)
