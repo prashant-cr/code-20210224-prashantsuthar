@@ -14,19 +14,31 @@ def get_bmi_info():
     with open(input_file_path, 'r') as json_file:  # Read sample json file
         sample_json_data = json.load(json_file)
 
+    result_data_list, overweight_count = get_result_according_data(sample_json_data)
+
+    return dict(Message="Success", data=result_data_list, overweight_count=overweight_count)
+
+
+def get_result_according_data(data_list):
+    """
+    This is a common function used for the result data according to the sample.
+    :param data_list:
+    :return:
+    """
+    print(data_list)
     overweight_count = 0
-    for i, sample in enumerate(sample_json_data):  # loop over the sample json data given
+    for i, sample in enumerate(data_list):  # loop over the sample json data given
         height_cm = sample.get('HeightCm')
         weight_kg = sample.get('WeightKg')
         person_bmi = get_bmi(height_cm, weight_kg)  # get bmi according to height and weight
         category_data = get_category(person_bmi)  # get category according to bmi
-        sample_json_data[i]['bmi'] = person_bmi
-        sample_json_data[i]['Category'] = category_data['Category']
-        sample_json_data[i]['HealthRisk'] = category_data['HealthRisk']
+        data_list[i]['bmi'] = person_bmi
+        data_list[i]['Category'] = category_data['Category']
+        data_list[i]['HealthRisk'] = category_data['HealthRisk']
         if category_data["Category"] == "Overweight":
             overweight_count += 1
 
-    return dict(Message="Success", data=sample_json_data, overweight_count=overweight_count)
+    return data_list, overweight_count
 
 
 @function_logger
@@ -52,3 +64,9 @@ def get_category(bmi):
         if bmi <= data.get('bmi'):  # if the bmi is lower then category high limit then its in that category
             return data
     return table_config[-1]
+
+
+def post_bmi_info(**kwargs):
+    data = kwargs.get('data')
+    result_data_list, overweight_count = get_result_according_data(data)
+    return dict(Message="Success", data=result_data_list, overweight_count=overweight_count)
